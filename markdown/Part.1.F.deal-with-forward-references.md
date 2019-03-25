@@ -115,7 +115,8 @@ print(an_undefined_variable)
 > 7 is a prime number
 > 8 equals 2 * 4
 > 9 equals 3 * 3
-```
+> ```
+
 只有两种情况，
 
 > * 要么干脆就没读过，
@@ -181,7 +182,7 @@ Python 官方网站上的 [The Python Tutorial](https://docs.python.org/3/tutori
 
 **可这张图错了！**
 
-因为我最早 “合理囫囵吞枣” 的时候，`Bytes` 这种数据类型全部跳过；而后来多轮反复之后继续深入，又去读 [The Python Language Reference](https://docs.python.org/3/reference/datamodel.html) 的第五章 `Data Model` 之后，`发现 Set` 也有 Immutable，是 `Frozen Set`…… 当然，最错的是，整理的过程中，一不小心把 “Ordered” 给弄反了！
+因为我最早 “合理囫囵吞枣” 的时候，`Bytes` 这种数据类型全部跳过；而后来多轮反复之后继续深入，又去读 [The Python Language Reference](https://docs.python.org/3/reference/datamodel.html) 的第五章 `Data Model` 之后，` 发现 Set` 也有 Immutable，是 `Frozen Set`…… 当然，最错的是，整理的过程中，一不小心把 “Ordered” 给弄反了！
 
 于是肯定需要再次整理，若干次改进之后，那张图就变成了下面这个样子：
 
@@ -272,3 +273,5 @@ Python 中有一个概念叫 PEP，Python Enhancement Proposals，必须找时�
 <a name='fn1'>[1]</a>：也可能真的会死…… 请看一篇 2018 年 9 月份的一则新闻，发生在旧金山的事情：[Developer goes rogue, shoots four colleagues at ERP code maker](https://www.theregister.co.uk/2018/09/20/developer_work_shooting/)
 
 <a href='#fn1b'><small>↑Back to Content↑</small></a>
+
+```
